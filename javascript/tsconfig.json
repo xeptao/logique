@@ -3,8 +3,8 @@
     "target": "es6",
     "module": "commonjs",
     "declaration": true,
-    "outDir": "./javascript/lib",
-    "rootDir": "./javascript/src",
+    "outDir": "./lib",
+    "rootDir": "./src",
     "strict": true,
     "noImplicitAny": true,
     "strictNullChecks": true,
@@ -13,8 +13,12 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "lib": ["ESNext", "DOM"]
+    "lib": ["ESNext", "DOM"],
+    "types": [
+      "jest",
+      "node"
+    ]
   },
-  "include": ["javascript/src"],
+  "include": ["src"],
   "typeAcquisition": { "enable": true }
 }

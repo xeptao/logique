@@ -16,3 +16,9 @@
 - [Downloading](https://github.com/xeptao/logique#downloading)
 - [Trying](https://github.com/xeptao/logique#trying)
 - [License](https://github.com/xeptao/logique#license)
+
+<br />
+
+## Preview
+
+**Project under construction. No functions to view.**

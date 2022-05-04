@@ -1,0 +1,10 @@
+{
+  "name": "logique",
+  "version": "1.0.0",
+  "description": "Mathematical functions with explanations.",
+  "main": "index.js",
+  "repository": "https://github.com/xeptao/logique",
+  "author": "xeptao",
+  "license": "MIT",
+  "private": false
+}

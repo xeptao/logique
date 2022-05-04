@@ -6,4 +6,4 @@
     <b>
         <a href="https://logique.dev">Website</a> | <a href="https://logique.dev/install/">Install</a> | <a href="https://logique.dev/docs">Documentation</a>
     </b>
-<div>
+</div>

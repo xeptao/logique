@@ -1,5 +1,9 @@
-**_<center><h2>Logique</h2>_**
+<center>
 
-A library that provides basic and complex mathematical functions. 👨‍💻
+## **_Logique_**
 
-**<a>Website</a> | <a>Install</a> | <a>Documentation</a></center>**
+A library that provides basic and complex mathematical functions.
+
+**<a href="">Website</a> | <a>Install</a> | <a>Documentation</a>**
+
+</center>

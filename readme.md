@@ -30,3 +30,9 @@
 ## Trying
 
 **Project under construction. Nothing to try.**
+
+## License
+
+The project _Logique_ is licensed under the **MIT** license.
+
+See the _[license file](https://github.com/xeptao/logique/blob/master/LICENSE)_ for more details.

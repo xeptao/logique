@@ -1,9 +1,7 @@
-<center>
+<h2 align="center" style="font-style: italic;font-weight: bold;">Logique</h2>
 
-## **_Logique_**
+<p align="center">A library that provides basic and complex mathematical functions.<p>
 
-A library that provides basic and complex mathematical functions.
-
-**<a href="">Website</a> | <a>Install</a> | <a>Documentation</a>**
-
-</center>
+<div align="center" style="font-weight: bold;">
+    <a href="https://logique.dev">Website</a> | <a href="https://logique.dev/install/">Install</a> | <a href="https://logique.dev/docs">Documentation</a>
+<div>

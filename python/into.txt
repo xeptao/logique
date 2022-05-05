@@ -1,0 +1,1 @@
+This is the Python version of the library. All of the code is in `src/`

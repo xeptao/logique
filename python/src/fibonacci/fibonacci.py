@@ -10,5 +10,7 @@ def fibonacci(n):
             return 1
         else:
             print("Do not enter negative values.")
+
+            return 0
     except TypeError:
         print("Please enter a number.")

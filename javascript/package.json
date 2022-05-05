@@ -10,6 +10,7 @@
   "scripts": {
     "watch": "tsc -w",
     "build": "tsc",
+    "test": "jest",
     "lint": "eslint --ext .ts,.tsx src/",
     "lint:fix": "yarn lint --fix",
     "format": "prettier --write src/**/**/*.ts src/**/**/*.tsx"

@@ -38,4 +38,4 @@ jobs:
         run: cd javascript && npm run build
 
       - name: test 🧪
-        run: cd javascript && npm run test && cd ../python && python3 -m pytest
+        run: cd javascript && npm run test && cd ../python && pip install pytest && python3 -m pytest

@@ -1,0 +1,41 @@
+name: Continous Integration
+
+on:
+  push:
+    branches:
+      - master
+      - prod
+  pull_request:
+    branches:
+      - master
+      - prod
+
+jobs:
+  # lint:
+  # name: lint ✨
+  # runs-on: ubuntu-latest
+  # steps:
+  # - name: 📚 checkout
+  #  uses: actions/checkout@v2.1.1
+
+  # - name: 📁 dependencies
+  #  run: npm install
+
+  # - name: lint ✨
+  #  run: npm run lint
+
+  test:
+    name: test 🧪
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📚 checkout
+        uses: actions/checkout@v2.1.1
+
+      - name: 📁 dependencies
+        run: cd javascript && npm install && cd ../python && python3 scripts/install_packages.py
+
+      - name: 💻 build
+        run: cd javascript && npm run build
+
+      - name: test 🧪
+        run: cd javascript && npm run jest && cd ../python && pytest

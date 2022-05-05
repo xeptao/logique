@@ -19,11 +19,11 @@ def install_packages():
         sudo_state = True
 
     # open packages list and install them to packages/
-    with open("../config/packages.json") as file:
+    with open("packages.json") as file:
         data = json.load(file)
 
         os.system(
-            f'{"sudo" if sudo_state else ""} pip install {" ".join(data)} --target "../packages/"')
+            f'{"sudo" if sudo_state else ""} pip install {" ".join(data)} --target "packages/"')
 
         print("Installed the required packages.")
 

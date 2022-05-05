@@ -21,7 +21,33 @@
 
 ## Preview
 
-**Project under construction. No functions to view.**
+This is the preview of the usage of the `factorial` function in both Python and JavaScript.
+
+### Python
+
+```python
+from logique import factorial
+
+result = factorial(3)
+
+print(result)
+
+# output: 6
+```
+
+### JavaScript
+
+```javascript
+import { factorial } from "logique";
+
+const result = factorial(3);
+
+console.log(result);
+
+// output: 6
+```
+
+In fact; `3 x 2 x 1 = 6` .
 
 <br />
 

@@ -9,7 +9,7 @@ def install_packages():
     except ImportError:
         print("Pip isn't installed.")
 
-        return Null
+        return None
 
     user_os = platform.system()
     sudo_state = False

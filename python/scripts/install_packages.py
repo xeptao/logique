@@ -2,14 +2,11 @@ import os
 import platform
 import json
 
+from utils.package_check import package_check
+
 
 def install_packages():
-    try:
-        import pip
-    except ImportError:
-        print("Pip isn't installed.")
-
-        return None
+    package_check("pip", "Pip isn't installed.")
 
     user_os = platform.system()
     sudo_state = False

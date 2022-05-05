@@ -1,13 +1,10 @@
 import os
 
+from utils.package_check import package_check
+
 
 def format_files():
-    try:
-        import pip
-    except ImportError:
-        print("Pip isn't installed.")
-
-        return None
+    package_check("pip", "Pip isn't installed.")
 
     os.system("black .")
     os.system("black ../src")

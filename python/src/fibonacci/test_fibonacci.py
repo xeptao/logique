@@ -8,3 +8,6 @@ def test_answer():
     # correctly calculates when n = 1 or n = 2
     assert fibonacci(1) == 1
     assert fibonacci(2) == 1
+
+    # correctly handles edge case
+    assert fibonacci(-1) == 0

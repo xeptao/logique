@@ -23,7 +23,8 @@ def install_packages():
         data = json.load(file)
 
         os.system(
-            f'{"sudo" if sudo_state else ""} pip install {" ".join(data)} --target "../packages/"')
+            f'{"sudo" if sudo_state else ""} pip install {" ".join(data)} --target "../packages/"'
+        )
 
         print("Installed the required packages.")
 

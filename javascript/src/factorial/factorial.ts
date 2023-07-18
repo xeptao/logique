@@ -1,4 +1,3 @@
-/** Returns n!. */
 export const factorial = (n: number): number => {
   if (n > 1) {
     const m = n - 1;
@@ -11,3 +10,4 @@ export const factorial = (n: number): number => {
     return 0;
   }
 };
+
